@@ -9,6 +9,8 @@ a {
   text-decoration: none; 
 }
 
+/* HERO SECTION */
+
 .hero {
   display: flex;
   flex-direction: row;
@@ -62,11 +64,16 @@ a {
   }
 }
 
+/* DEVICONS */
+
 .devicon-git-plain {
   max-width: 2em;
 }
 
-/* if you want to change the original color */
+/* change color of devicons here */
 .devicon-git-plain path {
   fill: #385F71;
 }
+
+/* ABOUT ME */
+

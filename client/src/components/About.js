@@ -11,6 +11,8 @@ const About = () => {
         </svg>
       </div>
       <div className="aboutme">
+        <h3 className="story-title"><span className="my">my</span>story</h3>
+        <p className="story-text"></p>
       </div>
     </>
   )
