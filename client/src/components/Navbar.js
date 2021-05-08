@@ -13,6 +13,7 @@ const Navbar = () => {
     width: '100%',
     color: 'white',
     backgroundColor: 'black',
+    borderBottom: '2px solid #8F754F',
     textAlign: 'center',
     transition: 'top 0.6s',
   }
