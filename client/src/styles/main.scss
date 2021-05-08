@@ -47,8 +47,6 @@ a {
   align-items: center;
 }
 .bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
 
@@ -67,7 +65,7 @@ a {
 /* DEVICONS */
 
 .devicon-git-plain {
-  max-width: 2em;
+  width: 75px;
 }
 
 /* change color of devicons here */
@@ -82,12 +80,21 @@ a {
     flex-direction: row;
   }
 
-
 .skills, .story {
   width: 50%;
   height: 40vh;
 }
+.skills-title, .my {
+  color: #8F754F;
+}
+.skills {
+  background-color: white;
+}
 
 .story-text, .story-title {
   color: white;
+}
+
+.icon-text {
+  color: #385F71;
 }
