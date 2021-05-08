@@ -9,9 +9,10 @@ const Navbar = () => {
 
   const navbarStyles = {
     position: 'fixed',
-    height: '60px',
+    height: '40px',
     width: '100%',
-    backgroundColor: 'grey',
+    color: 'white',
+    backgroundColor: 'black',
     textAlign: 'center',
     transition: 'top 0.6s',
   }
@@ -34,7 +35,7 @@ const Navbar = () => {
     return  () => window.removeEventListener('scroll', handleScroll)
   }, [prevScrollPos, visible, handleScroll])
 
-  return <div className="navbar" style={{ ...navbarStyles, top: visible ? '0' : '-60px' }}>Home</div>
+  return <div className="navbar" style={{ ...navbarStyles, top: visible ? '0' : '-40px' }}>Home</div>
 
 }
 
