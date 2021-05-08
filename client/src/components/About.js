@@ -5,14 +5,17 @@ const About = () => {
 
   return (
     <>
-      <div className="skills">
-        <svg className="devicon-git-plain" viewBox="0 0 128 128">
-          <path fill="#F0DB4F" d="M2 1v125h125v-125h-125zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065-.001-10.115.046-20.188.046-30.188h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z"></path>
-        </svg>
-      </div>
-      <div className="aboutme">
-        <h3 className="story-title"><span className="my">my</span>story</h3>
-        <p className="story-text">Working for a fintech company exposed me to the world of technology where collaborating with developers sparked a passion for coding, which led me to study Software Engineering at General Assembly. It’s exciting to always learn and challenge myself, build on previous knowledge and use it to contribute to something bigger than me. <br/> Beginning a chapter in development gives me a world where I can collaborate, adapt, be creative, as well as apply my skills as a developer and create friendships along the way. As a developer starting out, it is exciting to know I can be what I aspire to be, while inspiring others along the way and contribute to making a change. I’m now looking forward to progressing my career in the tech industry as a junior developer.</p>
+      <div className="story-skills-container">
+        <div className="skills">
+          <h3 className="skills-title">skills</h3>
+          <svg className="devicon-git-plain" viewBox="0 0 128 128">
+            <path fill="#F0DB4F" d="M2 1v125h125v-125h-125zm66.119 106.513c-1.845 3.749-5.367 6.212-9.448 7.401-6.271 1.44-12.269.619-16.731-2.059-2.986-1.832-5.318-4.652-6.901-7.901l9.52-5.83c.083.035.333.487.667 1.071 1.214 2.034 2.261 3.474 4.319 4.485 2.022.69 6.461 1.131 8.175-2.427 1.047-1.81.714-7.628.714-14.065-.001-10.115.046-20.188.046-30.188h11.709c0 11 .06 21.418 0 32.152.025 6.58.596 12.446-2.07 17.361zm48.574-3.308c-4.07 13.922-26.762 14.374-35.83 5.176-1.916-2.165-3.117-3.296-4.26-5.795 4.819-2.772 4.819-2.772 9.508-5.485 2.547 3.915 4.902 6.068 9.139 6.949 5.748.702 11.531-1.273 10.234-7.378-1.333-4.986-11.77-6.199-18.873-11.531-7.211-4.843-8.901-16.611-2.975-23.335 1.975-2.487 5.343-4.343 8.877-5.235l3.688-.477c7.081-.143 11.507 1.727 14.756 5.355.904.916 1.642 1.904 3.022 4.045-3.772 2.404-3.76 2.381-9.163 5.879-1.154-2.486-3.069-4.046-5.093-4.724-3.142-.952-7.104.083-7.926 3.403-.285 1.023-.226 1.975.227 3.665 1.273 2.903 5.545 4.165 9.377 5.926 11.031 4.474 14.756 9.271 15.672 14.981.882 4.916-.213 8.105-.38 8.581z"></path>
+          </svg>
+        </div>
+        <div className="story">
+          <h3 className="story-title"><span className="my">my</span> story</h3>
+          <p className="story-text">Working for a fintech company exposed me to the world of technology where collaborating with developers sparked a passion for coding, which led me to study Software Engineering at General Assembly. It’s exciting to always learn and challenge myself, build on previous knowledge and use it to contribute to something bigger than me. <br/> Beginning a chapter in development gives me a world where I can collaborate, adapt, be creative, as well as apply my skills as a developer and create friendships along the way. As a developer starting out, it is exciting to know I can be what I aspire to be, while inspiring others along the way and contribute to making a change. I’m now looking forward to progressing my career in the tech industry as a junior developer.</p>
+        </div>
       </div>
     </>
   )
