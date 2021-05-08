@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="aboutme">
         <h3 className="story-title"><span className="my">my</span>story</h3>
-        <p className="story-text"></p>
+        <p className="story-text">Working for a fintech company exposed me to the world of technology where collaborating with developers sparked a passion for coding, which led me to study Software Engineering at General Assembly. It’s exciting to always learn and challenge myself, build on previous knowledge and use it to contribute to something bigger than me. <br/> Beginning a chapter in development gives me a world where I can collaborate, adapt, be creative, as well as apply my skills as a developer and create friendships along the way. As a developer starting out, it is exciting to know I can be what I aspire to be, while inspiring others along the way and contribute to making a change. I’m now looking forward to progressing my career in the tech industry as a junior developer.</p>
       </div>
     </>
   )
