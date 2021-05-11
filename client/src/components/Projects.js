@@ -8,13 +8,18 @@ const Projects = () => {
         <h2 className="project-title">Projects</h2>
         <div className="project-container">
           <div className="project-container-top">
-            
+
             <div className="project-one">
               <div className="item">
                 <div className="polaroid"><img alt="" src="./screenshots/Begin.png"/>
                   <div className="caption">Zeus Invades</div>
                 </div>
               </div>
+              <p className="project-desription">Dummy text</p>
+              <div className="project-tech">
+                Tech used
+              </div>
+              <button className="project-link"></button><button className="github-link"></button>
             </div>
             <div className="project-two">
               <div className="item">
@@ -22,6 +27,11 @@ const Projects = () => {
                   <div className="caption">Is It Worth It?</div>
                 </div>
               </div>
+              <p className="project-desription">Dummy text</p>
+              <div className="project-tech">
+                Tech used
+              </div>
+              <button className="project-link"></button><button className="github-link"></button>
             </div>
           </div>
           <div className="project-container-bottom">
@@ -31,6 +41,11 @@ const Projects = () => {
                   <div className="caption">Icelander</div>
                 </div>
               </div>
+              <p className="project-desription">Dummy text</p>
+              <div className="project-tech">
+                Tech used
+              </div>
+              <button className="project-link"></button><button className="github-link"></button>
             </div>
             <div className="project-four">
               <div className="item">
@@ -38,6 +53,11 @@ const Projects = () => {
                   <div className="caption">TrackMyCal</div>
                 </div>
               </div>
+              <p className="project-desription">Dummy text</p>
+              <div className="project-tech">
+                Tech used
+              </div>
+              <button className="project-link"></button><button className="github-link"></button>
             </div>
           </div>
         </div>

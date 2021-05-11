@@ -106,6 +106,17 @@ a {
   background-color: white;
 }
 
+.project-container-top, .project-container-bottom {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.project-one, .project-two, .project-three, .project-four {
+  width: 50%;
+  height: 60vh;
+}
 // .project-title {
 //   margin-top: 0;
 // }
