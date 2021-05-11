@@ -99,6 +99,16 @@ a {
   color: #385F71;
 }
 
+/* PROJECTS*/
+
+.projects {
+  height: 100vh;
+  background-color: white;
+}
+
+// .project-title {
+//   margin-top: 0;
+// }
 
 /* POLAROID */
 
@@ -118,9 +128,10 @@ a {
   height: auto;
 }
 .caption {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   text-align: center;
-  line-height: 2em;
+  line-height: 1.6rem;
+  margin-top: 0.4rem;
 }
 .item {
   width: 30%;
