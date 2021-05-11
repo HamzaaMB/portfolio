@@ -4,7 +4,7 @@ const Projects = () => {
 
   return (
     <>
-      <section className="projects">
+      <section id="projects" className="projects">
         <h2 className="project-title">Projects</h2>
         <div className="project-container">
           <div className="project-container-top">
@@ -19,7 +19,8 @@ const Projects = () => {
               <div className="project-tech">
                 Tech used
               </div>
-              <button className="project-link"></button><button className="github-link"></button>
+              <a rel="noreferrer" target="_blank" href="https://hamzaamb.github.io/SEI-project-one/"><button className="project-link">project link</button></a>
+              <a rel="noreferrer" target="_blank" href="https://github.com/HamzaaMB/SEI-project-one"><button className="github-link">github</button></a>
             </div>
             <div className="project-two">
               <div className="item">
@@ -31,7 +32,8 @@ const Projects = () => {
               <div className="project-tech">
                 Tech used
               </div>
-              <button className="project-link"></button><button className="github-link"></button>
+              <a rel="noreferrer" target="_blank" href="https://isitworthit-hb.netlify.app/"><button className="project-link">project link</button></a>
+              <a rel="noreferrer" target="_blank" href="https://github.com/HamzaaMB/IsItWorthIt"><button className="github-link">github</button></a>
             </div>
           </div>
           <div className="project-container-bottom">
@@ -45,7 +47,8 @@ const Projects = () => {
               <div className="project-tech">
                 Tech used
               </div>
-              <button className="project-link"></button><button className="github-link"></button>
+              <a rel="noreferrer" target="_blank" href="https://icelander.netlify.app/"><button className="project-link">project link</button></a>
+              <a rel="noreferrer" target="_blank" href="https://github.com/HamzaaMB/SEI-Project-Three"><button className="github-link">github</button></a>
             </div>
             <div className="project-four">
               <div className="item">
@@ -57,7 +60,8 @@ const Projects = () => {
               <div className="project-tech">
                 Tech used
               </div>
-              <button className="project-link"></button><button className="github-link"></button>
+              <a rel="noreferrer" target="_blank" href="https://trackmycal.herokuapp.com/"><button className="project-link">project link</button></a>
+              <a rel="noreferrer" target="_blank" href="https://github.com/HamzaaMB/SEI-project-four"><button className="github-link">github</button></a>
             </div>
           </div>
         </div>

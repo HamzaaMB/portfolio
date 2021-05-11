@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { debounce } from '../helpers/helpers.js'
+import { Link } from 'react-scroll'
 
 
 const Navbar = () => {
@@ -36,8 +37,14 @@ const Navbar = () => {
     return  () => window.removeEventListener('scroll', handleScroll)
   }, [prevScrollPos, visible, handleScroll])
 
-  return <div className="navbar" style={{ ...navbarStyles, top: visible ? '0' : '-40px' }}>Home</div>
-
+  return <div className="navbar" style={{ ...navbarStyles, top: visible ? '0' : '-40px' }}>
+    <ul style={{ display: 'flex', listStyle: 'none', justifyContent: 'space-evenly' }}>
+      <li><Link activeClass="active" to="home" spy={true} smooth={true}><a href="/">Home</a></Link></li>
+      <li><Link  to="about" spy={true} smooth={true}><a href="/">About</a></Link></li>
+      <li><Link  to="projects" spy={true} smooth={true}><a href="/">Projects</a></Link></li>
+      <li><Link  to="contact" spy={true} smooth={true}><a href="/">Contact</a></Link></li>
+    </ul>
+  </div>
 }
 
 export default Navbar
