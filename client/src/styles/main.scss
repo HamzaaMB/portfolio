@@ -14,6 +14,7 @@ a {
 .hero {
   display: flex;
   flex-direction: row;
+  height: 100vh;
 }
 
 .hero-container {
@@ -45,6 +46,7 @@ a {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
+  height: 80vh;
 }
 .bounce {
   animation: bounce 2s infinite;
@@ -78,17 +80,19 @@ a {
   .story-skills-container {
     display: flex;
     flex-direction: row;
+    height: 100vh;
   }
 
 .skills, .story {
   width: 50%;
-  height: 40vh;
+  height: 80vh;
 }
 .skills-title, .my {
   color: #8F754F;
 }
 .skills {
   background-color: white;
+  height: 100vh;
 }
 
 .story-text, .story-title {
@@ -104,6 +108,7 @@ a {
 .projects {
   height: 100vh;
   background-color: white;
+  margin-top: -20px;
 }
 
 .project-container-top, .project-container-bottom {
@@ -145,7 +150,7 @@ a {
   margin-top: 0.4rem;
 }
 .item {
-  width: 30%;
+  width: 100%;
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
@@ -222,4 +227,10 @@ a {
   transition: all 0.35s;
 }
 
+/* FOOTER */
 
+footer {
+  width: 100%;
+  height: 75vh;
+  border: 1px solid white;
+}

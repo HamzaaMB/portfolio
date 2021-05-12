@@ -17,6 +17,7 @@ const Navbar = () => {
     borderBottom: '2px solid #8F754F',
     textAlign: 'center',
     transition: 'top 0.6s',
+    zIndex: '1',
   }
 
   const handleScroll = debounce(() => {
