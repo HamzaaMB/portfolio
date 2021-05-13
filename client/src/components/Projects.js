@@ -36,7 +36,6 @@ const Projects = () => {
             </div>
           </div>
           <div className="project-container-bottom">
-
             <div className="project-one">
               <div className="item">
                 <div className="polaroid"><img alt="" src="./screenshots/Begin.png"/>
