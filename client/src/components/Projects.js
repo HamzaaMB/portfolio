@@ -11,20 +11,16 @@ const Projects = () => {
             <div className="project-four">
               <div className="item">
                 <div className="polaroid"><img alt="" src="./screenshots/homepage2.png"/>
-                  <div className="caption">TrackMyCal</div>
                 </div>
               </div>
               <p className="project-desription">Dummy text</p>
-              <div className="project-tech">
-                Tech used
-              </div>
+              <div className="project-tech">Tech used</div>
               <a rel="noreferrer" target="_blank" href="https://trackmycal.herokuapp.com/"><button className="project-link">project link</button></a>
               <a rel="noreferrer" target="_blank" href="https://github.com/HamzaaMB/SEI-project-four"><button className="github-link">github</button></a>
             </div>
             <div className="project-three">
               <div className="item">
                 <div className="polaroid"><img alt="" src="./screenshots/homepage1.png"/>
-                  <div className="caption">Icelander</div>
                 </div>
               </div>
               <p className="project-desription">Dummy text</p>
@@ -39,7 +35,6 @@ const Projects = () => {
             <div className="project-two">
               <div className="item">
                 <div className="polaroid"><img alt="" src="./screenshots/homepage.png"/>
-                  <div className="caption">Is It Worth It?</div>
                 </div>
               </div>
               <p className="project-desription">Dummy text</p>
@@ -52,7 +47,6 @@ const Projects = () => {
             <div className="project-one">
               <div className="item">
                 <div className="polaroid"><img alt="" src="./screenshots/Begin.png"/>
-                  <div className="caption">Zeus Invades</div>
                 </div>
               </div>
               <p className="project-desription">Dummy text</p>

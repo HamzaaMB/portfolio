@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
 
 
 body {
@@ -86,7 +86,7 @@ a {
 /* DEVICONS */
 
 .devicon-git-plain {
-  width: 75px;
+  width: 60px;
 }
 
 /* change color of devicons here */
@@ -110,7 +110,11 @@ a {
 
 .icon-box {
   margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 .story-skills-container {
     display: flex;
@@ -174,6 +178,13 @@ a {
 }
 
 /* PROJECTS*/
+
+.project-title {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .projects {
   height: 200vh;
@@ -305,7 +316,6 @@ img {
   width: 100%;
   filter: grayscale(100%);
   opacity: 0.5;
-  border-radius: 10px;
   
 
 }
@@ -357,7 +367,7 @@ footer {
   height: 50%;
   width: 45%;
   position: relative;
-  margin: 5px;
+  margin: 15px;
 }
 
 .text {
@@ -366,6 +376,9 @@ footer {
   text-transform: uppercase;
   bottom: -5px;
   left: 10px;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 16px;
+  letter-spacing: 5px;
 }
 
 .contact-container {
