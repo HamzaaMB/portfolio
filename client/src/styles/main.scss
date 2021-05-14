@@ -1,4 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+
+
+
 body {
   background-color: black;
   height: 500vh;
@@ -21,7 +25,6 @@ a {
   height: 80vh;
   margin-top: 40px;
   width: 70%;
-  border: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,17 +80,20 @@ a {
 
 /* ABOUT ME */
 
-.icons-container {
+.icons-container, .story-text {
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .icon-box {
-  margin: 10px;
+  margin: 15px;
 }
 
 .story-skills-container {
@@ -99,11 +105,29 @@ a {
 .skills, .story {
   width: 50%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .skills-title, .my, .project-title, .interest-title, .contact-title {
   color: #8F754F;
+  letter-spacing: 3px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 12px;
 }
+
+.story-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+}
+
 .skills {
   background-color: white;
   height: 100vh;
@@ -115,6 +139,22 @@ a {
 
 .icon-text {
   color: #385F71;
+}
+
+.about-title-container {
+  height: 30%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.story-text {
+  text-transform: initial;
+}
+
+.icon-text {
+  text-align: center;
 }
 
 /* PROJECTS*/
