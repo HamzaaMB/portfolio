@@ -34,12 +34,28 @@ a {
 .hero-name {
   color: #8F754F;
   text-transform: uppercase;
-  font-size: 100px;
+  font-size: 120px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  letter-spacing: 15px;
+  border-bottom: 1px solid #8F754F;
+  margin-bottom: -10px;
 }
 
 .hero-title {
   color: white;
   text-transform: uppercase;
+  margin: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+
+.bottom-title {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
 }
 
 .hero-scroll {

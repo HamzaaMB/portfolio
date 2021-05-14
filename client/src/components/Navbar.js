@@ -18,6 +18,8 @@ const Navbar = () => {
     textAlign: 'center',
     transition: 'top 0.6s',
     zIndex: '1',
+    textTransform: 'uppercase',
+    fontFamily: 'Titillium Web',
   }
 
   const handleScroll = debounce(() => {
