@@ -1,4 +1,6 @@
 import React from 'react'
+import { BiMailSend } from 'react-icons/bi'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const Footer = () => {
 
@@ -36,9 +38,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="contact-container">
-            <div className="email">email</div>
-            <div className="linkedin">linkedin</div>
-            <div className="github">github</div>
+            <div className="email">Hamzambutt1@gmail.com <BiMailSend /></div>
+            <div className="linkedin"><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/hamzambutt/">Linkedin <FaLinkedin /></a></div>
+            <div className="github"><a rel="noreferrer" target="_blank" href="https://github.com/hamzaaMB">GitHub <FaGithub /></a></div>
           </div>
         </div>
       </footer>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import { FaArrowDown } from 'react-icons/fa'
 
 
 const Hero = () => {
@@ -17,7 +18,7 @@ const Hero = () => {
         </div>
         <div className="hero-scroll">
           <div className="arrow bounce">
-            <a className="arrow-down" href="/"><Link  to="about" spy={true} smooth={true}>Scroll</Link></a>
+            <a className="arrow-down" href="/"><Link  to="about" spy={true} smooth={true}><FaArrowDown /></Link></a>
           </div>
         </div>
       </section>

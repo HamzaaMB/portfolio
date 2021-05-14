@@ -5,13 +5,13 @@
 
 body {
   background-color: black;
-  height: 500vh;
 }
 
 a { 
   color: white; 
   text-decoration: none; 
 }
+
 
 /* HERO SECTION */
 
@@ -83,6 +83,10 @@ a {
   }
 }
 
+.arrow-down {
+  font-size: 24px;
+}
+
 /* DEVICONS */
 
 .devicon-git-plain {
@@ -119,7 +123,6 @@ a {
 .story-skills-container {
     display: flex;
     flex-direction: row;
-    height: 100vh;
   }
 
 .skills, .story {
@@ -159,6 +162,7 @@ a {
 
 .icon-text {
   color: #385F71;
+  text-align: center;
 }
 
 .about-title-container {
@@ -173,10 +177,6 @@ a {
   text-transform: initial;
 }
 
-.icon-text {
-  text-align: center;
-}
-
 /* PROJECTS*/
 
 .project-title {
@@ -187,9 +187,9 @@ a {
 }
 
 .projects {
-  height: 200vh;
   background-color: white;
   margin-top: -20px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .project-container-top, .project-container-bottom {
@@ -197,15 +197,74 @@ a {
   flex-direction: row;
   width: 80%;
   margin: 0 auto;
+  height: 100vh;
 }
 
 .project-one, .project-two, .project-three, .project-four {
   width: 50%;
-  height: 60vh;
+  height: 100%;
 }
-// .project-title {
-//   margin-top: 0;
-// }
+
+.project-description {
+  color: #385F71;
+  font-size: 20px;
+  text-align: center;
+}
+
+.info-container {
+  height: 50%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.project-icons svg {
+  color: #8F754F;
+  font-size: 32px;
+  margin: 5px;
+}
+
+.tech, .project-name {
+  font-size: 20px;
+  color: #8F754F;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+button {
+  background: none;
+  border: 1px solid #8F754F;
+  border-radius: 1.5rem;
+  padding: 6px;
+  width: 50%;
+}
+
+button:hover {
+  background: #385f71b6;
+    a {
+  color: white;
+    }
+}
+
+.live-buttons {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-link a, .github-link a {
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  letter-spacing: 1px;
+}
 
 /* POLAROID */
 
@@ -327,8 +386,6 @@ img:hover {
 
 footer {
   width: 100%;
-  height: 75vh;
-  border: 1px solid white;
 }
 
 .contact-bottom, .contact-top {
@@ -337,7 +394,7 @@ footer {
 }
 
 .contact-bottom {
-  height: 100%;
+  height: 60vh;
 }
 .contact-top {
   justify-content: space-around;
@@ -355,8 +412,8 @@ footer {
   width: 30%;
 }
 .image-box-container {
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -364,8 +421,8 @@ footer {
   align-items: center;
 }
 .image-box {
-  height: 50%;
-  width: 45%;
+  height: 45%;
+  width: 35%;
   position: relative;
   margin: 15px;
 }
@@ -384,7 +441,20 @@ footer {
 .contact-container {
   color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.email, .linkedin, .github {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.email svg, .linkedin svg, .github svg {
+  font-size: 26px;
+  padding-bottom: -2px;
 }
 
 
