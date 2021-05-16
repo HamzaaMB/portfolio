@@ -2,6 +2,7 @@ import React from 'react'
 import { BiMailSend } from 'react-icons/bi'
 import { FaGithub } from 'react-icons/fa'
 import { SiLinkedin } from 'react-icons/si'
+import CopyMailTo from 'react-copy-mailto'
 
 const Footer = () => {
 
@@ -44,7 +45,7 @@ const Footer = () => {
                 <BiMailSend />
               </div>
               <div className="email">
-                Hamzambutt1@gmail.com
+                <CopyMailTo email="Hamzambutt1@gmail.com" />
               </div>
             </div>
             <div className="github-box">
