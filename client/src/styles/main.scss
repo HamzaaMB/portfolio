@@ -455,6 +455,111 @@ footer {
 .email svg, .linkedin svg, .github svg {
   font-size: 26px;
   padding-bottom: -2px;
+  color: white;
+}
+
+.email-box, .linkedin-box, .github-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.email-icon, .github-icon, .link-icon {
+  text-align: center;
+  font-size: 45px;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 990px) {
+
+  .hero-name {
+    text-align: center;
+  }
+
+  .bottom-title {
+    font-size: 22px;
+  }
+
+  .about-title-container {
+    height: 20%
+  }
+  .story-text{
+    font-size: 18px;
+  }
+
+  .icon-text {
+    font-size: 15px;
+  }
+
+  .project-description {
+    font-size: 19px;
+  }
+  .live-buttons {
+    width: 60%;
+  }
+  .project-link, .github-link {
+    width: 70%;
+  }
+
+  .image-box-container {
+    height: 80%
+  }
+  .email-icon, .github-icon, .link-icon {
+    font-size: 34px;
+  }
+
+}
+
+@media screen and (max-width: 780px) {
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-container {
+    width: 100%;
+  }
+
+  .hero-scroll {
+    width: 100%;
+    height: 5%;
+  }
+  .devicon-git-plain {
+    width: 45px;
+  }
+  .icon-text, .story-text {
+    font-size: 15px;
+  }
+
+  .project-description {
+    font-size: 16px;
+  }
+
+  .project-name, .tech {
+    font-size: 17px;
+  }
+
+  .project-icons svg {
+    font-size: 28px;
+  }
+
+  .contact-container {
+    font-size: 12px;
+  }
+  .text {
+    font-size: 14px;
+  }
 }
 
 
+@media screen and (max-width: 594px) {
+  .story-title {
+    margin-top: -70px;
+  }
+
+  .story-text {
+    margin-top: -70px;
+  }
+}

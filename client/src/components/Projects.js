@@ -18,7 +18,7 @@ const Projects = () => {
               </div>
               <div className="info-container">
                 <div className="project-name">TrackMyCal</div>
-                <p className="project-description">Full-Stack app with a Python, Django, and PostgreSQL back-end and a React front-end. The idea is based around one of my favourite apps (myfitnesspal) which is designed to keep track of food the user inputs into their logbook and their calories.</p>
+                <p className="project-description">Full-Stack app with Python, Django, and PostgreSQL back-end and a React front-end. The idea is based around one of my favourite apps (myfitnesspal) which is designed to keep track of food the user inputs into their logbook and their calories.</p>
                 <div className="project-tech">
                   <div className="tech">Created with -</div><div className="project-icons"><SiJavascript /><SiReact /><SiPython /><DiDjango /><SiPostgresql /><SiHtml5 /><DiSass /><SiYarn /><SiGit /></div>
                 </div>
@@ -54,7 +54,7 @@ const Projects = () => {
               </div>
               <div className="info-container">
                 <div className="project-name">Is It Worth It?</div>
-                <p className="project-description">48 hour hackathon - built a React Hooks app using two third-party APIs (RESTCountries and TravelBriefing.org), which offers travel advice to the user based on the country they want to visit. This project taught me the value of collaboration, being able to share our different strengths and skills. </p>
+                <p className="project-description">48 hour hackathon - built a React Hooks app using two third-party APIs, which offers travel advice to the user based on the country they want to visit. This project taught me the value of collaboration and being able to share our different strengths and skills. </p>
                 <div className="project-tech">
                   <div className="tech">Created with -</div><div className="project-icons"><SiJavascript /><SiReact /><SiHtml5 /><SiCss3 /><SiYarn /></div>
                 </div>

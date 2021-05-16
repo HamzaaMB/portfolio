@@ -1,6 +1,7 @@
 import React from 'react'
 import { BiMailSend } from 'react-icons/bi'
-import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+import { SiLinkedin } from 'react-icons/si'
 
 const Footer = () => {
 
@@ -38,9 +39,35 @@ const Footer = () => {
             </div>
           </div>
           <div className="contact-container">
-            <div className="email">Hamzambutt1@gmail.com <BiMailSend /></div>
-            <div className="linkedin"><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/hamzambutt/">Linkedin <FaLinkedin /></a></div>
-            <div className="github"><a rel="noreferrer" target="_blank" href="https://github.com/hamzaaMB">GitHub <FaGithub /></a></div>
+            <div className="email-box">
+              <div className="email-icon">
+                <BiMailSend />
+              </div>
+              <div className="email">
+                Hamzambutt1@gmail.com
+              </div>
+            </div>
+            <div className="github-box">
+              <a rel="noreferrer" target="_blank" href="https://github.com/hamzaaMB">
+                <div className="github-icon">
+                  <FaGithub />
+                </div>
+                <div className="github">
+                  GitHub
+                </div>
+              </a>
+            </div>
+            <div className="linkedin-box">
+              <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/hamzambutt/">
+                <div className="link-icon">
+                  <SiLinkedin />
+                </div>
+                <div className="linkedin">
+                  Linkedin
+                </div>
+              </a>
+            </div>
+
           </div>
         </div>
       </footer>
@@ -49,3 +76,14 @@ const Footer = () => {
 }
 
 export default Footer
+
+{/* <div className="linkedin-box">
+<a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/hamzambutt/">
+  <div className="linkedin-icon">
+    <SiLinkedin/>
+  </div>
+  <div className="linkedin">
+  Linkedin
+  </div>
+</a>
+</div> */}
