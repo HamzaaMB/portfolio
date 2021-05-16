@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <>
       <footer id="contact">
-        <div className="contact-top"><h2 className="interest-title">Interests</h2><h2 className="contact-title">contact</h2></div>
         <div className="contact-bottom">
           <div className="interest-container">
+            <h2 className="interest-title">Interests</h2>
             <div className="image-box-container">
               <div className="image-box">
                 <img src='./screenshots/travel.png.jpg' alt="travel" />
@@ -40,35 +40,37 @@ const Footer = () => {
             </div>
           </div>
           <div className="contact-container">
-            <div className="email-box">
-              <div className="email-icon">
-                <BiMailSend />
-              </div>
-              <div className="email">
-                <CopyMailTo email="Hamzambutt1@gmail.com" />
-              </div>
-            </div>
-            <div className="github-box">
-              <a rel="noreferrer" target="_blank" href="https://github.com/hamzaaMB">
-                <div className="github-icon">
-                  <FaGithub />
+            <h2 className="contact-title">contact</h2>
+            <div className="contact-box">
+              <div className="email-box">
+                <div className="email-icon">
+                  <BiMailSend />
                 </div>
-                <div className="github">
+                <div className="email">
+                  <CopyMailTo email="Hamzambutt1@gmail.com" />
+                </div>
+              </div>
+              <div className="github-box">
+                <a rel="noreferrer" target="_blank" href="https://github.com/hamzaaMB">
+                  <div className="github-icon">
+                    <FaGithub />
+                  </div>
+                  <div className="github">
                   GitHub
-                </div>
-              </a>
-            </div>
-            <div className="linkedin-box">
-              <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/hamzambutt/">
-                <div className="link-icon">
-                  <SiLinkedin />
-                </div>
-                <div className="linkedin">
+                  </div>
+                </a>
+              </div>
+              <div className="linkedin-box">
+                <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/hamzambutt/">
+                  <div className="link-icon">
+                    <SiLinkedin />
+                  </div>
+                  <div className="linkedin">
                   Linkedin
-                </div>
-              </a>
+                  </div>
+                </a>
+              </div>
             </div>
-
           </div>
         </div>
       </footer>

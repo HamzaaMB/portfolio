@@ -386,6 +386,7 @@ img:hover {
 
 footer {
   width: 100%;
+  height: 80vh;
 }
 
 .contact-bottom, .contact-top {
@@ -404,12 +405,13 @@ footer {
   width: 70%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
 .contact-container {
   width: 30%;
+  height: 100%;
 }
 .image-box-container {
   height: 100%;
@@ -420,6 +422,14 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
 .image-box {
   height: 45%;
   width: 35%;
@@ -469,6 +479,11 @@ footer {
   text-align: center;
   font-size: 45px;
 }
+
+.interest-title, .contact-title {
+  height: 20%;
+}
+
 
 /* RESPONSIVENESS */
 
@@ -554,12 +569,74 @@ footer {
 }
 
 
-@media screen and (max-width: 594px) {
-  .story-title {
-    margin-top: -70px;
+@media screen and (max-width: 631px) {
+
+  .hero-name {
+    font-size: 80px;
   }
 
-  .story-text {
-    margin-top: -70px;
+  .hero-title {
+    font-size: 18px;
+  }
+
+  .devicon-git-plain {
+    width: 30px;
+  }
+
+  .skills-title,.story-title, .my, .project-title, .contact-title, .interest-title {
+    font-size: 16px;
+  }
+
+  .project-name {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .icon-text, .story-text {
+    font-size: 10px;
+  }
+
+  .project-description {
+    font-size: 12px;
+  }
+
+  .tech {
+    font-size: 12px;
+  }
+
+  .project-container-bottom, .project-container-top {
+    flex-direction: column;
+  }
+
+  .project-container-top  {
+    margin-top: 60px;
+  }
+
+  .project-container-bottom {
+    margin-top: 200px;
+  }
+  .projects {
+    height: 275vh;
+  }
+
+  .project-one, .project-two, .project-three, .project-four {
+    width: 100%;
+  }
+  .project-one, .project-two, .project-three {
+    margin-top: 30px;
+  }
+
+  .contact-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-container {
+    margin-top: 30px;
+  }
+
+  .text {
+    font-size: 8px;
+    left: 1px;
   }
 }
