@@ -11,9 +11,9 @@ const Hero = () => {
     <>
       <section id="home" className="hero">
         <div className="hero-container">
-          <h1 className="hero-name">hamza butt</h1>
+          <h1 className="hero-name"><span className="letter-space">hamza but</span>t</h1>
           <div className="bottom-title">
-            <h2 className="hero-title">Developer</h2><h2 className="hero-title">Traveller</h2><h2 className="hero-title">Mathematician</h2>
+            <h2 className="hero-title">Full stack</h2><h2 className="hero-title">Developer</h2>
           </div>
         </div>
         <div className="hero-scroll">
