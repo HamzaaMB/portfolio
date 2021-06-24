@@ -14,7 +14,7 @@ const Navbar = () => {
     width: '100%',
     color: 'white',
     backgroundColor: '#0d0d0dfc',
-    borderBottom: '1px dotted #8F754F',
+    borderBottom: '1px solid black',
     textAlign: 'center',
     transition: 'top 0.6s',
     zIndex: '1',
@@ -41,7 +41,7 @@ const Navbar = () => {
   }, [prevScrollPos, visible, handleScroll])
 
   return <div className="navbar" style={{ ...navbarStyles, top: visible ? '0' : '-40px' }}>
-    <ul style={{ display: 'flex', listStyle: 'none', justifyContent: 'space-around' }}>
+    <ul style={{ paddingLeft: '-40px ' }}>
       <li><Link activeClass="active" to="home" spy={true} smooth={true}><a href="/">Home</a></Link></li>
       <li><Link  to="about" spy={true} smooth={true}><a href="/">About</a></Link></li>
       <li><Link  to="projects" spy={true} smooth={true}><a href="/">Projects</a></Link></li>

@@ -12,6 +12,13 @@ a {
   text-decoration: none; 
 }
 
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
 
 /* HERO SECTION */
 
@@ -569,6 +576,9 @@ footer {
 
 @media screen and (max-width: 631px) {
 
+  .navbar ul {
+    font-size: 11px;
+  }
   .devicon-git-plain {
     width: 20px;
   }
