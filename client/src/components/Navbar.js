@@ -41,7 +41,7 @@ const Navbar = () => {
   }, [prevScrollPos, visible, handleScroll])
 
   return <div className="navbar" style={{ ...navbarStyles, top: visible ? '0' : '-40px' }}>
-    <ul style={{ display: 'flex', listStyle: 'none', justifyContent: 'space-evenly' }}>
+    <ul style={{ display: 'flex', listStyle: 'none', justifyContent: 'space-around' }}>
       <li><Link activeClass="active" to="home" spy={true} smooth={true}><a href="/">Home</a></Link></li>
       <li><Link  to="about" spy={true} smooth={true}><a href="/">About</a></Link></li>
       <li><Link  to="projects" spy={true} smooth={true}><a href="/">Projects</a></Link></li>

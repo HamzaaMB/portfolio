@@ -129,11 +129,12 @@ a {
 .story-skills-container {
     display: flex;
     flex-direction: row;
+    height: 100vh;
   }
 
 .skills, .story {
   width: 50%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -159,7 +160,6 @@ a {
 
 .skills {
   background-color: white;
-  height: 100vh;
 }
 
 .story-text, .story-title {
@@ -194,8 +194,12 @@ a {
 
 .projects {
   background-color: white;
-  margin-top: -30px;
+  margin-top: -35px;
   font-family: 'Titillium Web', sans-serif;
+}
+
+.project-container {
+  height: 200vh;
 }
 
 .project-container-top, .project-container-bottom {
@@ -203,7 +207,7 @@ a {
   flex-direction: row;
   width: 80%;
   margin: 0 auto;
-  height: 100vh;
+  height: 50%;
 }
 
 .project-one, .project-two, .project-three, .project-four {
@@ -524,6 +528,10 @@ footer {
     flex-direction: column;
   }
 
+  .hero-title {
+    margin: -5px;
+  }
+
   .hero-container {
     width: 100%;
   }
@@ -559,23 +567,20 @@ footer {
   }
 }
 
-
 @media screen and (max-width: 631px) {
 
-  .hero-name {
-    font-size: 80px;
-  }
-
-  .hero-title {
-    font-size: 18px;
-  }
-
   .devicon-git-plain {
-    width: 30px;
+    width: 20px;
   }
-
+  .icons-container {
+    margin-top: -40px;
+  }
   .skills-title,.story-title, .my, .project-title, .contact-title, .interest-title {
     font-size: 16px;
+  }
+
+  .project-title {
+    margin-top: 30px;
   }
 
   .project-name {
@@ -603,10 +608,10 @@ footer {
   }
 
   .project-container-bottom {
-    margin-top: 200px;
+    margin-top: 380px;
   }
   .projects {
-    height: 275vh;
+    height: 350vh;
   }
 
   .project-one, .project-two, .project-three, .project-four {
@@ -629,5 +634,19 @@ footer {
   .text {
     font-size: 8px;
     left: 1px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  .devicon-git-plain {
+    width: 20px;
+  }
+
+  .icon-text {
+    font-size: 8px;
+  }
+  .hero-title {
+    margin: -1px;
   }
 }
